@@ -1,0 +1,53 @@
+<Duas telas  principais. A de cima mostrara os personagens e o  que aconteceu, enquanto a de baixo deixara as opcoes para o jogador.>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="tela">
+<div class="vidacavaleiro">
+    <div id="barraCavaleiro"></div>
+    <h3>
+        <span id="vidacavaleiro">100</span>/100
+    </h3>
+</div>
+
+    <div class="cavaleiro">
+<img  id="imgcavaleiro" src="/img/cavaleiro.png" alt="Cavaleiro"/>
+    </div>
+    <div class="goblin">
+<img id="imgoblin" src="/img/goblin_direito.png" alt="Goblin"/>
+    </div>
+   <div class="vidagoblin">
+    <div id="barraGoblin"></div>
+    <h3>
+        <span id="vidagoblin">100</span>/100
+    </h3>
+</div>
+</div>
+ <div class="anuncio">
+    <h3 id="anuncio" >O que deseja fazer?!</h3>
+</div>
+<div class="opcoes">
+<button id="atacar" class="atacar">
+Atacar
+</button>
+<button id="curar" class="curar">
+    Curar
+</button>
+<button id="defender" class="defender">
+    Defender
+</button>
+<button id="fugir" class="fugir">
+    Fugir
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
